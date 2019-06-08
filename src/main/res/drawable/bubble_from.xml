@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+    <item
+        android:start="@dimen/speech_bubble_corners_ends"
+        android:end="@dimen/speech_bubble_corners_ends"
+        android:bottom="@dimen/speech_bubble_spacing"
+        android:top="@dimen/speech_bubble_spacing"
+        >
+        <shape>
+            <solid android:color="@color/myMessageBackground"/>
+            <corners android:radius="@dimen/bubble_corner"/>
+        </shape>
+    </item>
+</layer-list>

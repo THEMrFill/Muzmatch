@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="entryFieldBackground">#eeeeee</color>
+    <color name="entryFieldHintText">#a1a1a1</color>
+    <color name="entryFieldText">#242425</color>
+    <color name="otherMessageBackground">#e5e5ea</color>
+    <color name="otherMessageText">#242425</color>
+    <color name="myMessageBackground">#f52259</color>
+    <color name="myMessageText">#fef0f3</color>
+    <color name="statusMessageText">#adadb0</color>
+</resources>

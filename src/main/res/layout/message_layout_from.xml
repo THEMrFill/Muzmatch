@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/messageMargin"
+        android:layout_marginEnd="@dimen/messageMargin"
+        android:layout_marginTop="@dimen/messageMarginVert"
+        android:layout_marginBottom="@dimen/messageMarginVert"
+        >
+    <TextView
+            android:id="@+id/datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dateMargin"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+    <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/datetime"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bubble_from_tail"
+            android:padding="@dimen/message_text_padding"
+            android:textColor="@color/myMessageText"
+            android:textSize="@dimen/message_text_size"
+            />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:start="@dimen/speech_bubble_corners_ends"
+        android:end="@dimen/speech_bubble_corners_ends"
+        android:bottom="@dimen/speech_bubble_spacing"
+        android:top="@dimen/speech_bubble_spacing"
+        >
+        <shape>
+            <solid android:color="@color/myMessageBackground"/>
+            <corners android:radius="@dimen/bubble_corner"/>
+        </shape>
+    </item>
+    <item
+        android:width="@dimen/speech_bubble_corners_plus_tail"
+        android:height="@dimen/speech_bubble_corners_plus_tail"
+        android:gravity="bottom|end">
+        <vector
+            android:width="@dimen/speech_bubble_corners_plus_tail"
+            android:height="@dimen/speech_bubble_corners_plus_tail"
+            android:viewportWidth="150.0"
+            android:viewportHeight="150.0">
+            <path
+                android:pathData="M0,100 L0,0 L100,0 C100,11.9054549 97.4819258,22.2130322 94.7799856,32.2289993 C90.75,47.1679688 84.2945141,60.8615415 81.84375,65.5820312 C94.7799856,107.207031 108.2539062,127.800781 150,151 C88.4688146,147.539062 48.308594,129.675781 5.384705,97.6602593 C17.176679,99.8389881 8.89365799999999,100 0,100 Z"
+                android:fillColor="@color/myMessageBackground"/>
+        </vector>
+    </item>
+</layer-list>

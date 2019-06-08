@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bubble_corner">12dp</dimen>
+    <dimen name="message_text_size">16sp</dimen>
+    <dimen name="message_text_padding">12dp</dimen>
+    <dimen name="recyclerBorder">10dp</dimen>
+    <dimen name="messageMargin">5dp</dimen>
+    <dimen name="messageMarginVert">1dp</dimen>
+    <dimen name="dateMargin">10dp</dimen>
+
+    <dimen name="speech_bubble_corners">10dp</dimen>
+    <dimen name="speech_bubble_corners_ends">5dp</dimen>
+    <dimen name="speech_bubble_corners_plus_tail">15dp</dimen>
+    <dimen name="speech_bubble_spacing">5dp</dimen>
+    <dimen name="speech_bubble_tail">25dp</dimen>
+</resources>
